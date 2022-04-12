@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: pink;
+  font-family: 'Sofia';
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 450px) {
+  .column {
+    width: 80%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 500PX;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.icon-bar {
+  width: 50%;
+  background-color: pink;
+  overflow: auto;
+  text-align: center;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  padding: 12px 0;
+  border-radius:180px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 26px;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+}
+
+
+footer {
+  background-color: pink;
+  padding: 10px;
+  text-align: left;
+  color: black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  font-family: Century Gothic;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  font-family: Century Gothic;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  font-family: Century Gothic; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 1px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: pink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+<div class="navbar">
+  <a href="proj.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="boardmembers.html">About Us</a></button>
+    <div class="dropdown-content">
+      <a href="About Us.html">About Product</a>
+      <a href="boardmembers.html">Company Profile</a>
+    </div>
+  </div> 
+  <a href="registerform.html">Membership</a>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="product.html">Product</a></button>
+    <div class="dropdown-content">
+      <a href='concealerpage.php'>Concealer</a>
+      <a href='blusherpage.php'>Blusher</a>
+      <a href='powderpage.php'>Powder</a>
+      <a href='foundationpage.php'>Foundation</a>
+      <a href='eyelinerpage.php'>Eyeliner</a>
+      <a href='eyeshadowpage.php'>Eyeshadow</a>
+      <a href='mascarapage.php'>Mascara</a>
+      <a href='lipstickpage.php'>Lipstick</a>
+      <a href='lipglosspage.php'>Lipgloss</a>
+    </div>
+  </div>
+  <a href="inquiriesform.html">Ask A Question</a>
+  <a href="cartview.php">Your Cart</a>
+</div>
+
+  <h2>Kathaleia&#9829;</h2>
+</header>
+<br>
+<center>
+	<h1> Board of Director</h1><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/adlin.png" alt="Adlin" style="width:60%">
+      <div class="container">
+        <h2>NUR ADLIN SAFIAH BINTI ROSLI</h2>
+        <p class="title">CEO & Founder</p>
+        <p>"What I love most about makeup is that you can't get attached to one thing, one idea or one approach- and once you've achieved perfection, you have to wipe it all off and start over the next day."</p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/syaf.png" alt="Syaf" style="width:60%">
+      <div class="container">
+        <h2>NURUL SYAFIQAH BINTI MUSTAPHA KAMAL</h2>
+        <p class="title">Manager</p>
+        <p>"Beautiful and graceful, varied and enchanting, small but approachable, butterflies lead you to the sunny side of life.<br>And everyone deserves a little sunshine with their makeup on."</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img/sara.png" alt="Sara" style="width:60%">
+      <div class="container">
+        <h2>NURSARA AIN BINTI HARZANY</h2>
+        <p class="title">Executive Officer</p>
+        <p>"Makeup should never be used to hide yourself.<br>It should be used to enhance your natural beauty."</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img/nurul.png" alt="Nurul" style="width:60%">
+      <div class="container">
+        <h2>NURUL FARHANA NATRAH BINTI  JOHARI</h2>
+        <p class="title">Executive Director</p>
+        <p>"She has a way with words, red lipstick, and making an entrance.<br>Then, you get more stares than an eye chart."</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+</center>
+<footer>
+      <div class="container">
+        <h4> Our Address</h4>
+        <h4><ul>168, Bukit Bintang Street,<br> Bukit Bintang,<br>5100 Kuala Lumpur,<br>Federal Territory of Kuala Lumpur</ul>
+        </h4>
+        <h4> Operating Hours</h4>
+        <h4><ul> Mon - Sun at 10 a.m. to 10 p.m</ul></h4>
+        </div>
+      <div class="icon-bar">
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-whatsapp"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a></div>
+  <div>
+<br><center>
+<p>&copy; 2019 KathaleiaCosmetic.com<p></center></div></footer> 
+</body>
+</html>
+
